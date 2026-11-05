@@ -60,4 +60,7 @@ Improve responsive design for mobile devices.
 Add proper loading and error handling.
 Prevent rating counts from becoming negative.
 👨‍💻 Author: Akram AFOUFOU
-## GitHub user : AF-akram
+## GitHub user :
+ AF-akram
+## Live demo :
+[https://store-akram-fad2.vercel.app]
