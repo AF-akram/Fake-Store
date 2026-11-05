@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: rubik ;
+    src: url(./fonts/Rubik_Spray_Paint/RubikSprayPaint-Regular.ttf);
+    font-weight: bold;
+}
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(246, 246, 193);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    position: relative;
+}
+#container > div {
+    padding: 10px;
+    background-color: #006064;
+    color: white ;
+    border-radius: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#container > div:hover {
+    background-color: rgb(63, 62, 62);
+}
+#logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: rubik;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+span {
+    color: rgb(176, 157, 121);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
